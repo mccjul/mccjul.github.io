@@ -16,8 +16,7 @@ body {
 
 .scroll-panel {
   width: 60%;
-  background: #0ff;
-  margin-top: 30%;
+  margin-top: 40%;
   left: 20%;
   z-index: 600;
   position: relative;
@@ -37,7 +36,7 @@ body {
 }
 
 .scroll-down {
-  bottom: 0;
+  bottom: 10%;
   width: 100%;
   position: fixed;
 }
