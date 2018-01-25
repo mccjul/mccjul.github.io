@@ -16,10 +16,18 @@ body {
 
 .scroll-panel {
   width: 60%;
-  margin-top: 40%;
+  margin-top: 45vh;
   left: 20%;
   z-index: 600;
   position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .scroll-panel {
+    width: 90%;
+    left: 5%;
+  }
 }
 
 .centered-text {
